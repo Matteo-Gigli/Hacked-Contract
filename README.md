@@ -41,5 +41,25 @@ So until the Bank contract balance is more than 0 we will receive the tokens.</h
 <h2>🔗 BankCorrect.sol, AttackCorrect.sol</h2>  
 <h3>This 2 contracts are working togheter and are the safe method to deposit, withdraw.... to/from a contract</h3>  
 <h3>In the Bank contract we are using all the safe method to prevent a Reentrancy Attack </h3> 
+<br> 
+
+<h2>✂️📐 Use this contracts</h2>
+<h3>Bank.sol-BankCorrect.sol are working in the same way.</h3>  
+<h3>Attack.sol-AttackCorrect.sol are working in the same way.</h3> 
+<br>
+<h3>First of all deploy Bank contract.</h3> 
+<h3>Once deployed, use the deposit function and set a deposit not less than 0.</h3>  
+<h3>If you want to see better, repeat the deposit with differents accounts.</h3> 
+<h3>Check the contractBalance via getContractBalance()</h3>  
+<br>
+<h3>Attack-AttackCorrect</h3> 
+<h3>Use a new address to deploy this contract!</h3>  
+<h3>To deploy it we need the Bank address, so copy and paste that address to deploy this contract.</h3> 
+<h3>Once deployed use the attack functions and send a value.</h3> 
+<br>
+
+<h3>💥 You Hacked Your Contract</h3> 
 <br>  
-  
+
+<h2>🔨 Built with</h2>
+<h3>Solidity, Truffle, Ganache</h3>   
